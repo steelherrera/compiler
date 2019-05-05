@@ -1,0 +1,23 @@
+
+Variable: hola Asignacion: <-- Num-entero: 5 Op-mult: * Num-entero: 3 Punto y coma: ;
+
+Variable: comoestas Asignacion: = Num-entero: 5 Punto y coma: ;
+
+Variable: quiensoy Asignacion: <-- Num-entero: 3 Op-exp: ^ Num-entero: 4 Punto y coma: ;
+
+Caracter no reconocido: }
+
+
+Caracter no reconocido: {
+
+ Parent-a: (
+
+TABLA DE IDENTIFICADORES
+Hay 3 identificadores
+Id=hola; Id=comoestas; Id=quiensoy; 
+
+----------------------------
+TABLA DE ERRORES
+Hay 2 errores
+Error=}; Error={; 
+

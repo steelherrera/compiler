@@ -1,0 +1,64 @@
+VOID MAIN Parent-a: ( Parent-c: ) 
+Inicio= { 
+
+SCANF  Parent-a: ( Var-cadena: "%d" Coma: , Variable: g2 Parent-c: ) Punto y coma: ; 
+
+FOR  Parent-a: ( Variable: gm  Asignacion: =  Num-entero: 0 Punto y coma: ; Variable: gm  Comp-menor: <  Num-entero: 100 Punto y coma: ; Variable: gm  Asignacion: =  Variable: gm Op-sum: + Op-sum: + Parent-c: ) 
+Inicio= { 
+  PRINTF Parent-a: ( Var-cadena: "Mi edad: %d" Coma: , Variable: td Parent-c: ) Punto y coma: ; 
+  Variable: i  Asignacion: =  
+Caracter no reconocido: 2ja
+Punto y coma: ;    
+Fin= } 
+
+SWITCH Parent-a: ( Variable: t Parent-c: ) 
+CASE  Num-entero: 1 :
+ Variable: g2  Asignacion: =  Num-entero: 0 Punto y coma: ; 
+
+CASE  Num-entero: 2 : 
+ Variable: g4  Asignacion: = 
+Caracter no reconocido: 23b
+Punto y coma: ; 
+
+FOR Parent-a: ( Variable: i  Asignacion: =  Num-entero: 2 Punto y coma: ; Variable: i  Comp-mayorigual: >=  Num-entero: 0 Punto y coma: ; Op-rest: - Op-rest: - Variable: i Parent-c: ) 
+Inicio= { 
+  SCANF Parent-a: ( Var-cadena: "%d" Coma: , Variable: jaime Parent-c: ) Punto y coma: ; 
+  PRINTF Parent-a: ( Var-cadena: "%d" Coma: , Variable: i Parent-c: ) Punto y coma: ; 	
+Fin= } 
+Bloque de comentario
+WHILE  Parent-a: ( Variable: sw  Comp-igual: ==  Num-entero: 0  Op-y: &&  Variable: gm  Comp-igual: ==  Num-entero: 0 Parent-c: ) 
+Inicio= { 
+  Variable: jaime  Asignacion: =  Variable: flaquita Op-div: / Num-entero: 10 Op-mult: * Num-real: 25.43 Punto y coma: ; 
+  
+  IF  Parent-a: ( Variable: flaquita  
+Comp-diferente: !=  
+Caracter no reconocido: 2ba
+Parent-c: ) 
+  Inicio= { 
+   Variable: sw  Asignacion: =  Num-entero: 1 Punto y coma: ; 
+  Fin= } 
+  Variable: i  Asignacion: =  Variable: i  Op-sum: +  Num-real: 14.65e6 
+Fin= } 
+
+Bloque de comentario
+
+IF  Variable: jaime 
+Inicio= { 
+  Variable: g3  Asignacion: =  Variable: g2  Op-sum: +  Num-entero: 4e32 Punto y coma: ; 
+Fin= } 
+ELSE 
+Inicio= { 
+   Variable: df Punto y coma: ; 	 
+Fin= } 
+
+Fin= } 
+
+TABLA DE IDENTIFICADORES
+Hay 10 identificadores
+Id=g2; Id=gm; Id=td; Id=i; Id=g4; Id=jaime; Id=sw; Id=flaquita; Id=g3; Id=df; 
+
+----------------------------
+
+TABLA DE ERRORES
+Hay 3 errores
+Error=2ja; Error=23b; Error=2ba; 
